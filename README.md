@@ -1,1 +1,1 @@
-# CamilleLafranceCatalog
+# Catalog
