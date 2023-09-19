@@ -1,6 +1,11 @@
 html,
 body {
   height: 100%;
-  margin: 0;
-  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  margin: 0px; 
+  color: white;
+  font-family: "Rubik", sans-serif;
+  background-image: url("https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center;
 }
