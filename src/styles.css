@@ -1,8 +1,13 @@
-html,
-body {
-  height: 100%;
+html, body {
+  /* Position */
+  display: block;
+  box-sizing: border-box;
   width: 100%;
-  margin: 0px; 
+  height: 100%;
+  margin: 0px;
+  
+
+  /* Background */
   color: white;
   font-family: "Rubik", sans-serif;
   background-image: url("https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
