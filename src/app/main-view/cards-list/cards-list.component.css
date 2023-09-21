@@ -1,0 +1,24 @@
+section {
+  margin-top: 2rem;
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.card-item {
+  max-width: 25%;
+}
+
+@media (max-width: 768px) {
+  .card-group {
+    flex-direction: column;
+  }
+  .card-item {
+    max-width: 100%;
+  }
+}

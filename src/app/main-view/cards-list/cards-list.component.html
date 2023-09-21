@@ -1,3 +1,9 @@
 <section>
-  <app-card *ngFor="let card of cards" [card]="card"></app-card>
+  <div class="card-group">
+    <app-card
+      *ngFor="let card of cards"
+      [card]="card"
+      class="card-item"
+    ></app-card>
+  </div>
 </section>
