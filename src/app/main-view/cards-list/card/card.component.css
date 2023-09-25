@@ -1,13 +1,24 @@
 .card {
+  border: 1px solid #ccc;
   border-radius: 5px;
   padding: 0.625rem;
   background-color: white;
   color: black;
+  text-align: center;
 }
 
-img {
+.card h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.card img {
   margin-top: 0.75rem;
   object-fit: scale-down;
   max-width: 100%;
   height: auto;
+}
+
+.card p {
+  font-size: 1rem;
 }
