@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "Diagramme de contexte",
+    "description": "Représente le système étudié en tant qu'entité unique et ses interactions avec les entités externes."
+  },
+  {
+    "id": 1,
+    "name": "Diagramme des flux",
+    "description": "Montre les flux d'informations entre les entités externes et le système étudié."
+  },
+  {
+    "id": 2,
+    "name": "Diagramme des traitements",
+    "description": "Identifie les traitements effectués par le système sur les flux d'informations."
+  },
+  {
+    "id": 3,
+    "name": "Diagramme des données",
+    "description": "Représente les données manipulées par le système et les relations entre elles."
+  },
+  {
+    "id": 4,
+    "name": "Diagramme des entités et associations",
+    "description": "Identifie les entités du système, leurs attributs et les associations entre elles."
+  },
+  {
+    "id": 5,
+    "name": "Diagramme de flux d'entités",
+    "description": "Montre les flux d'entités entre les traitements du système."
+  },
+  {
+    "id": 6,
+    "name": "Diagramme des flux de données",
+    "description": "Montre les flux de données entre les processus du système."
+  }
+]

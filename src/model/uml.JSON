@@ -1,0 +1,77 @@
+[
+  {
+    "id": 0,
+    "name": "Diagramme de cas d'utilisation",
+    "description": "Représente les fonctionnalités du système du point de vue de l'utilisateur."
+  },
+  {
+    "id": 1,
+    "name": "Diagramme de séquence",
+    "description": "Montre comment les objets interagissent dans une séquence temporelle."
+  },
+  {
+    "id": 2,
+    "name": "Diagramme de collaboration",
+    "description": "Similaire au diagramme de séquence, mais se concentre sur les interactions entre les objets."
+  },
+  {
+    "id": 2,
+    "name": "Diagramme de classe",
+    "description": "Représente la structure statique du système avec des classes, des attributs et des méthodes."
+  },
+  {
+    "id": 3,
+    "name": "Diagramme d'objet",
+    "description": "Montre une instance particulière d'une classe et les relations entre les objets."
+  },
+  {
+    "id": 4,
+    "name": "Diagramme d'état",
+    "description": "Représente les différents états d'un objet et ses transitions entre ces états."
+  },
+  {
+    "id": 5,
+    "name": "Diagramme d'activité",
+    "description": "Montre le flux de contrôle dans un processus ou une activité."
+  },
+  {
+    "id": 6,
+    "name": "Diagramme de composants",
+    "description": "Représente les composants logiciels et leurs relations."
+  },
+  {
+    "id": 7,
+    "name": "Diagramme de déploiement",
+    "description": "Montre la disposition physique des composants matériels et logiciels sur un réseau."
+  },
+  {
+    "id": 8,
+    "name": "Diagramme de package",
+    "description": "Organise les éléments du modèle en packages."
+  },
+  {
+    "id": 9,
+    "name": "Diagramme de communication",
+    "description": "Montre les objets qui interagissent les uns avec les autres."
+  },
+  {
+    "id": 10,
+    "name": "Diagramme de vue d'ensemble des interactions",
+    "description": "Combine des éléments de diagrammes de séquence et de diagrammes d'activité."
+  },
+  {
+    "id": 11,
+    "name": "Diagramme de synchronisation",
+    "description": "Représente les interactions temporelles entre des objets."
+  },
+  {
+    "id": 12,
+    "name": "Diagramme de modèle de composant",
+    "description": "Montre la structure interne d'une classe ou d'un composant."
+  },
+  {
+    "id": 13,
+    "name": "Diagramme de temps",
+    "description": "Représente le temps nécessaire pour exécuter une séquence d'opérations."
+  }
+]
