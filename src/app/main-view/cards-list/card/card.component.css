@@ -8,17 +8,45 @@
 }
 
 .card h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5rem;
-  margin-top: 0;
+  height: 5.3rem;
 }
 
 .card img {
-  margin-top: 0.75rem;
-  object-fit: scale-down;
-  max-width: 100%;
+  margin: 0.75rem;
+  margin-bottom: 2rem;
+  width: 90%;
   height: auto;
+  border: 1px solid #054b97;
 }
 
 .card p {
+  margin-top: 2rem;
   font-size: 1rem;
+  font-style: italic;
+}
+
+.card a {
+  background-color: #156bc6;
+  color: white;
+  padding: 0.5em 0.7em;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  box-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.2);
+}
+
+.card a:hover {
+  background-color: #054b97;
+  box-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 767.98px) {
+  .card h2 {
+    height: 3.5rem;
+  }
 }
