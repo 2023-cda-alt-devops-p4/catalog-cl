@@ -1,1 +1,4 @@
-<p>search-bar works!</p>
+<div class="search-bar">
+  <input type="search" [(ngModel)]="searchQuery" placeholder="Rechercher" />
+  <button (click)="performSearch()">Rechercher</button>
+</div>

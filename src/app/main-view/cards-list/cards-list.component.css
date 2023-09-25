@@ -7,7 +7,7 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  padding: 0 1rem;
+  padding: 0 0.5rem; 
 }
 
 .card-item {

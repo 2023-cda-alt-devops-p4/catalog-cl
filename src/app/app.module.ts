@@ -10,6 +10,7 @@ import { CardComponent } from './main-view/cards-list/card/card.component';
 import { MainViewComponent } from './main-view/main-view.component';
 import { CardsListComponent } from './main-view/cards-list/cards-list.component';
 import { SearchBarComponent } from './main-view/search-bar/search-bar.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { SearchBarComponent } from './main-view/search-bar/search-bar.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
