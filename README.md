@@ -1,6 +1,6 @@
 # CatalogCl
 
-The application is running on this [url](https://2023-cda-alt-devops-p4.github.io/catalog-cl/).
+:cyclone: The application is running on this [url](https://2023-cda-alt-devops-p4.github.io/catalog-cl/).
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
 ## Development server
