@@ -11,6 +11,7 @@ import { MainViewComponent } from './main-view/main-view.component';
 import { CardsListComponent } from './main-view/cards-list/cards-list.component';
 import { SearchBarComponent } from './main-view/search-bar/search-bar.component';
 import { FormsModule } from '@angular/forms';
+import { CardDetailsComponent } from './main-view/card-details/card-details.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     CardComponent,
     MainViewComponent,
     CardsListComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    CardDetailsComponent
   ],
   imports: [
     BrowserModule,
