@@ -47,14 +47,19 @@
 /* Collapse */
 @media (max-width: 768px) {
   .navbar {
-    padding: 1rem;
+    padding-left: 1rem;
   }
 
   .menu-toggle-button {
-    display: block;
+    display: flex;
+    justify-content: end;
   }
 
   .nav-list {
-    flex-direction: column; 
+    flex-direction: column;
+  }
+
+  .nav-item {
+    padding: 0.2rem 0;
   }
 }

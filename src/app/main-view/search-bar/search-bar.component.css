@@ -4,7 +4,8 @@
   align-items: center;
   margin-bottom: 1.25rem;
   gap: 0.5rem;
-  padding: 0 1rem;
+  padding-right: 1.7rem;
+  padding-bottom: 3.125rem;
 }
 
 .search-bar input[type="text"] {
