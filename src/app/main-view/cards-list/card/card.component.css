@@ -1,4 +1,7 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 0.625rem;
@@ -9,18 +12,20 @@
 
 .card h2 {
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
-  height: 5.3rem;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin-top: 0.3rem;
+  height: 5rem;
+  width: 100%;
 }
 
 .card img {
-  margin: 0.75rem;
   margin-bottom: 2rem;
-  width: 90%;
+  max-width: 80%;
   height: auto;
-  border: 1px solid #054b97;
+  object-fit: cover;
+  box-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.2);
 }
 
 .card p {
@@ -30,6 +35,7 @@
 }
 
 .card a {
+  margin-bottom: 1.5rem;
   background-color: #156bc6;
   color: white;
   padding: 0.5em 0.7em;
@@ -45,8 +51,19 @@
   box-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.4);
 }
 
-@media (max-width: 767.98px) {
+/* TABLETS AND MORE */
+@media (min-width: 767.98px) {
   .card h2 {
-    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
+    height: 5rem;
+    width: 13rem;
+  }
+
+  .card img {
+    width: 10rem;
+    height: 10rem;
   }
 }
