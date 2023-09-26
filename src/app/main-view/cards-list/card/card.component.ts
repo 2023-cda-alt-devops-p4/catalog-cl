@@ -7,5 +7,5 @@ import { Card } from 'src/model/card';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
-  @Input() card!: Card;
+  @Input() diagram!: Card;
 }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Card } from 'src/model/card';
+import { DiagramService } from 'src/service/diagram.service';
 
 @Component({
   selector: 'app-cards-list',
@@ -7,10 +8,16 @@ import { Card } from 'src/model/card';
   styleUrls: ['./cards-list.component.css'],
 })
 export class CardsListComponent {
-  cards: Array<Card> = [];
-  diagramService: any;
+  umlDiagrams: Card[] = [];
+  meriseDiagrams: Card[] = [];
 
-  constructor() {}
+  constructor(private diagramService: DiagramService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.diagramService.getDiagramData().subscribe(data => {
+      this.umlDiagrams = data.umlDiagrams;
+      this.meriseDiagrams = data.meriseDiagrams;
+    });
+  }
+  
 }

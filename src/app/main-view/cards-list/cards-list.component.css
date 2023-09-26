@@ -2,7 +2,7 @@ section {
   margin-top: 2rem;
 }
 
-.card-group {
+.cards-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -15,7 +15,7 @@ section {
 }
 
 @media (max-width: 575.98px) {
-  .card-group {
+  .cards-group {
     flex-direction: column;
   }
   .card-item {

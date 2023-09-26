@@ -6,7 +6,7 @@ import { CardDetailsComponent } from './main-view/card-details/card-details.comp
 const routes: Routes = [
   { path: '', component: MainViewComponent },
   { path: 'main-view', component: MainViewComponent },
-  { path: 'card-details/:id', component: CardDetailsComponent },
+  { path: 'diagram-details/:id', component: CardDetailsComponent },
   { path: '**', redirectTo: '/main-view' },
 ];
 

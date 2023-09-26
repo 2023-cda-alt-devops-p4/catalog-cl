@@ -12,6 +12,7 @@ import { CardsListComponent } from './main-view/cards-list/cards-list.component'
 import { SearchBarComponent } from './main-view/search-bar/search-bar.component';
 import { FormsModule } from '@angular/forms';
 import { CardDetailsComponent } from './main-view/card-details/card-details.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,13 +24,10 @@ import { CardDetailsComponent } from './main-view/card-details/card-details.comp
     MainViewComponent,
     CardsListComponent,
     SearchBarComponent,
-    CardDetailsComponent
+    CardDetailsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule, FormsModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,9 +1,12 @@
 <section>
-  <div class="card-group">
-    <app-card
-      *ngFor="let card of cards"
-      [card]="card"
-      class="card-item"
-    ></app-card>
+  <div class="cards-group">
+    <div *ngFor="let diagram of umlDiagrams">
+      <app-card [diagram]="diagram" class="card-item"></app-card>
+    </div>
+  </div>
+  <div class="cards-group">
+    <div *ngFor="let diagram of meriseDiagrams">
+      <app-card [diagram]="diagram" class="card-item"></app-card>
+    </div>
   </div>
 </section>
