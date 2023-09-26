@@ -14,6 +14,7 @@ export class CardsListComponent {
       1,
       'Diagramme 1 deuxième ligne troisième ligne',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScVqPT4M7tFJYzra2KXua9kQsRkhxhfIlpSrpOuFRT7D3mirnDkmsHlPTcL21-xGHc10I&usqp=CAU',
+      'Source image 1',
       'Description du diagramme 1',
       'Source 1'
     );
@@ -21,6 +22,7 @@ export class CardsListComponent {
       2,
       'Diagramme 2',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScVqPT4M7tFJYzra2KXua9kQsRkhxhfIlpSrpOuFRT7D3mirnDkmsHlPTcL21-xGHc10I&usqp=CAU',
+      'Source image 2',
       'Description du diagramme 2',
       'Source 2'
     );
@@ -28,6 +30,7 @@ export class CardsListComponent {
       3,
       'Diagramme 3',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScVqPT4M7tFJYzra2KXua9kQsRkhxhfIlpSrpOuFRT7D3mirnDkmsHlPTcL21-xGHc10I&usqp=CAU',
+      'Source image 3',
       'Description du diagramme 3',
       'Source 3'
     );
@@ -35,6 +38,7 @@ export class CardsListComponent {
       4,
       'Diagramme 4',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScVqPT4M7tFJYzra2KXua9kQsRkhxhfIlpSrpOuFRT7D3mirnDkmsHlPTcL21-xGHc10I&usqp=CAU',
+      'Source image 4',
       'Description du diagramme 4',
       'Source 4'
     );
@@ -42,6 +46,7 @@ export class CardsListComponent {
       5,
       'Diagramme 5',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScVqPT4M7tFJYzra2KXua9kQsRkhxhfIlpSrpOuFRT7D3mirnDkmsHlPTcL21-xGHc10I&usqp=CAU',
+      'Source image 5',
       'Description du diagramme 5',
       'Source 5'
     );
@@ -49,6 +54,7 @@ export class CardsListComponent {
       6,
       'Diagramme 6',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScVqPT4M7tFJYzra2KXua9kQsRkhxhfIlpSrpOuFRT7D3mirnDkmsHlPTcL21-xGHc10I&usqp=CAU',
+      'Source image 6',
       'Description du diagramme 6',
       'Source 6'
     );
