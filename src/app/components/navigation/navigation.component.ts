@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-navigation',
@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
 })
 export class NavigationComponent {
   isMenuOpen = false;
+  isMobileView = true;
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: Event) {
+    const windowWidth = (event.target as Window).innerWidth;
+    const mobileBreakpoint = 768;
+    this.isMobileView = windowWidth < mobileBreakpoint;
+  }
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;

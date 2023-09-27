@@ -1,16 +1,15 @@
 .navbar {
   background-color: black;
-  padding: 0.4rem; 
+  padding: 0.4rem;
 }
 
-.logos { 
+.logos {
   display: none;
-  
 }
 
 .logos a {
-  font-size: 2rem;
-  color: white; 
+  font-size: 2.9rem;
+  color: white;
   text-decoration: none;
 }
 
@@ -32,14 +31,12 @@
 
 .nav-link.active {
   font-weight: bold;
-} 
+}
 
-.menu-toggle { 
-  display: none;
-  font-size: 2rem;
+.menu-toggle {
+  font-size: 2.5rem;
   background-color: black;
-  color: white;  
-  margin-left: 2rem;
+  color: white;
   padding: 0;
   cursor: pointer;
   border: none;
@@ -51,7 +48,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .logos {
@@ -59,12 +59,8 @@
     justify-content: space-between;
   }
 
-  .menu-toggle {
-    display: block;
-  }
-
   .nav-list {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .nav-item {
