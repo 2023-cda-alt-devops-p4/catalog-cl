@@ -1,13 +1,16 @@
+/* MOBILE FIRST */
 .card {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   align-items: center;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0.625rem;
   background-color: white;
   color: black;
   text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
 .card h2 {
@@ -50,12 +53,17 @@
   background-color: #054b97;
   box-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.4);
 }
+ 
+@media (min-width: 390px) and (max-width: 576px) { 
+  .card {
+    width: 75%;
+    margin: auto;
+  }
+ }
 
 /* TABLETS AND MORE */
-@media (min-width: 767.98px) {
+@media (min-width: 576px) {
   .card h2 {
-    display: flex;
-    align-items: center;
     font-size: 1.5rem;
     margin-top: 0.3rem;
     height: 5rem;

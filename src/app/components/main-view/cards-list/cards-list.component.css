@@ -6,25 +6,12 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem; 
+  gap: 1rem;
   margin: 1rem;
 }
 
-.card-item {
-  max-width: 31.5%;
-}
-
-@media (max-width: 575.98px) {
+@media (max-width: 390px) {
   .cards-group {
     flex-direction: column;
-  }
-  .card-item {
-    max-width: 100%;
-  }
-}
-
-@media (min-width: 575.98px) and (max-width: 767.98px) {
-  .card-item {
-    max-width: 48%;
   }
 }
