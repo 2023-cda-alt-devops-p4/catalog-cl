@@ -1,9 +1,9 @@
 <nav class="navbar">
-  <div class="logos">
+  <div *ngIf="isMobileView" class="logos">
     <a routerLink="/">&#8912;</a>
     <button (click)="toggleMenu()" class="menu-toggle">&#9776;</button>
   </div>
-  <ul  *ngIf="!isMobileView || (isMobileView && isMenuOpen)" class="nav-list">
+  <ul *ngIf="!isMobileView || (isMobileView && isMenuOpen)" class="nav-list">
     <li class="nav-item">
       <a routerLink="/main-view" class="nav-link">Accueil</a>
     </li>

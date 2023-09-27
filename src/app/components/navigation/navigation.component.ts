@@ -7,7 +7,7 @@ import { Component, HostListener } from '@angular/core';
 })
 export class NavigationComponent {
   isMenuOpen = false;
-  isMobileView = true;
+  isMobileView!: boolean;
 
   @HostListener('window:resize', ['$event'])
   onResize(event: Event) {
