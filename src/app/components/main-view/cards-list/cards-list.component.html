@@ -1,12 +1,20 @@
 <section>
   <div class="cards-group">
-    <div *ngFor="let diagram of umlDiagrams">
+    <div
+      *ngFor="
+        let diagram of allDiagrams
+          | paginate : { itemsPerPage: cardsPerPage, currentPage: page }
+      "
+    >
       <app-card [diagram]="diagram" class="card-item"></app-card>
     </div>
   </div>
-  <div class="cards-group">
-    <div *ngFor="let diagram of meriseDiagrams">
-      <app-card [diagram]="diagram" class="card-item"></app-card>
-    </div>
-  </div>
+  <app-pagination
+    [page]="page"
+    (pageChange)="onPageChange($event)"
+    [nextPageLabel]="getNextPageLabel()"
+    [previousPageLabel]="getPreviousPageLabel()"
+    [firstPageLabel]="getFirstPageLabel()"
+    [lastPageLabel]="getLastPageLabel()"
+  ></app-pagination>
 </section>
