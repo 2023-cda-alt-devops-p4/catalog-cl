@@ -7,11 +7,19 @@ import { Component, HostListener } from '@angular/core';
 })
 export class NavigationComponent {
   isMenuOpen = false;
-  isMobileView!: boolean;
+  isMobileView = false;
+
+  ngOnInit() {
+    this.checkIfMobile();
+  }
 
   @HostListener('window:resize', ['$event'])
   onResize(event: Event) {
-    const windowWidth = (event.target as Window).innerWidth;
+    this.checkIfMobile();
+  }
+
+  private checkIfMobile() {
+    const windowWidth = window.innerWidth;
     const mobileBreakpoint = 768;
     this.isMobileView = windowWidth < mobileBreakpoint;
   }
