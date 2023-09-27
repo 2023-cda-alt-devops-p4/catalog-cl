@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Card } from 'src/model/card';
-import { DiagramService } from 'src/service/diagram.service';
+import { Card } from 'src/app/models/card';
+import { DiagramService } from 'src/app/services/diagram.service';
 
 @Component({
   selector: 'app-cards-list',

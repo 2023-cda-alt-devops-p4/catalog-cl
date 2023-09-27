@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
-import { DiagramData } from 'src/model/diagramData';
+import { DiagramData } from '../models/diagramData';
 
 @Injectable({
   providedIn: 'root',
