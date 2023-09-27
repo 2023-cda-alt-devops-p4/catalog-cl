@@ -14,7 +14,7 @@ export class NavigationComponent {
   }
 
   @HostListener('window:resize', ['$event'])
-  onResize(event: Event) {
+  onResize() {
     this.checkIfMobile();
   }
 
