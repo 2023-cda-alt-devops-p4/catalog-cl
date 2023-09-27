@@ -12,6 +12,6 @@ body {
   color: white;
   font-family: "Rubik", sans-serif;
   background-image: url("./assets/luis-del-rio.jpg");
-  background-size: cover;
-  background-position: center;
+  background-size: fill;
+  background-position:initial;
 }

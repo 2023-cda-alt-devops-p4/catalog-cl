@@ -1,23 +1,20 @@
 <nav class="navbar">
-  <div id="menu-toggle" class="menu-toggle-button">
-    <div class="burger-icon">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
+  <div class="logos">
+    <a routerLink="/">&#8912;</a>
+    <button (click)="toggleMenu()" class="menu-toggle">&#9776;</button>
   </div>
-  <ul class="nav-list">
+  <ul *ngIf="isMenuOpen" class="nav-list">
     <li class="nav-item">
-      <a routerLink="/main-view" class="nav-link">Accueil 🛖</a>
+      <a routerLink="/main-view" class="nav-link">Accueil</a>
     </li>
     <li class="nav-item">
       <a routerLink="/uml" class="nav-link">Diagrammes UML 🌀</a>
     </li>
     <li class="nav-item">
-      <a routerLink="/merise" class="nav-link">Diagrammes Merise 🔆</a>
+      <a routerLink="/merise" class="nav-link">Diagrammes Merise ☀️</a>
     </li>
     <li class="nav-item">
-      <a routerLink="/contact" class="nav-link">Contact 💭</a>
+      <a routerLink="/contact" class="nav-link">Contact</a>
     </li>
   </ul>
 </nav>
