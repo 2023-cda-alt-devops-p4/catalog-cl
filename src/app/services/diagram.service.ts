@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
 import { DiagramData } from '../models/diagramData';
+import { Card } from '../models/card';
 
 @Injectable({
   providedIn: 'root',
@@ -16,17 +17,16 @@ export class DiagramService {
     return this.http.get<DiagramData>(this.jsonUrl);
   }
 
-  /* UML DIAGRAMS */
-  getUmlDiagramById(id: number): Observable<any | undefined> {
+  /* BY ID */
+  getDiagramById(id: number): Observable<Card | undefined> {
     return this.getDiagramData().pipe(
-      map((data) => data.umlDiagrams.find((diagram) => diagram.id === id))
-    );
-  }
-
-  /* MERISE DIAGRAMS */
-  getMeriseDiagramById(id: number): Observable<any | undefined> {
-    return this.getDiagramData().pipe(
-      map((data) => data.meriseDiagrams.find((diagram) => diagram.id === id))
+      map((data) => {
+        const meriseDiagram = data.meriseDiagrams.find((diagram) => diagram.id === id);
+        if (meriseDiagram) {
+          return meriseDiagram;
+        }
+        return data.umlDiagrams.find((diagram) => diagram.id === id);
+      })
     );
   }
 }

@@ -1,1 +1,13 @@
-<p>card-details works!</p>
+<section>
+  <div class="diagram-page">
+    <h2>{{ diagram.name }}</h2>
+    <p>{{ diagram.description }}</p>
+    <img [src]="diagram.image" alt="Diagram image" />
+
+    <h3>Source de l'image :</h3>
+    <p>{{ diagram.sourceImage }}</p>
+
+    <h3>Source :</h3>
+    <p>{{ diagram.source }}</p>
+  </div>
+</section>
