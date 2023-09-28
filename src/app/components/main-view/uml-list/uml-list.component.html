@@ -1,1 +1,18 @@
-<p>uml-list works!</p>
+<section>
+  <div class="cards-group">
+    <div
+      *ngFor="
+        let diagram of umlDiagrams
+          | paginate : { itemsPerPage: cardsPerPage, currentPage: page }
+      "
+    >
+      <app-card [diagram]="diagram" class="card-item"></app-card>
+    </div>
+  </div>
+  <app-pagination
+    [page]="page"
+    (pageChange)="onPageChange($event)"
+    [nextPageLabel]="getNextPageLabel()"
+    [previousPageLabel]="getPreviousPageLabel()"
+  ></app-pagination>
+</section>

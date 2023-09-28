@@ -1,0 +1,17 @@
+section {
+  margin-top: 2rem;
+}
+
+.cards-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+@media (max-width: 390px) {
+  .cards-group {
+    flex-direction: column;
+  }
+}

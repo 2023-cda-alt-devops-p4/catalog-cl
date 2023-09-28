@@ -1,18 +1,18 @@
 <section>
-    <div class="cards-group">
-      <div
-        *ngFor="
-          let diagram of meriseDiagrams
-            | paginate : { itemsPerPage: cardsPerPage, currentPage: page }
-        "
-      >
-        <app-card [diagram]="diagram" class="card-item"></app-card>
-      </div>
+  <div class="cards-group">
+    <div
+      *ngFor="
+        let diagram of meriseDiagrams
+          | paginate : { itemsPerPage: cardsPerPage, currentPage: page }
+      "
+    >
+      <app-card [diagram]="diagram" class="card-item"></app-card>
     </div>
-    <app-pagination
-      [page]="page"
-      (pageChange)="onPageChange($event)"
-      [nextPageLabel]="getNextPageLabel()"
-      [previousPageLabel]="getPreviousPageLabel()"
-    ></app-pagination>
-  </section>
+  </div>
+  <app-pagination
+    [page]="page"
+    (pageChange)="onPageChange($event)"
+    [nextPageLabel]="getNextPageLabel()"
+    [previousPageLabel]="getPreviousPageLabel()"
+  ></app-pagination>
+</section>

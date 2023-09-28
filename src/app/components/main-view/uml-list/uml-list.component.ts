@@ -5,7 +5,7 @@ import { DiagramService } from 'src/app/services/diagram.service';
 @Component({
   selector: 'app-uml-list',
   templateUrl: './uml-list.component.html',
-  styleUrls: ['./uml-list.component.css']
+  styleUrls: ['./uml-list.component.css'],
 })
 export class UmlListComponent {
   umlDiagrams: Card[] = [];
@@ -20,5 +20,32 @@ export class UmlListComponent {
     this.diagramService.getDiagramData().subscribe((data) => {
       this.umlDiagrams = data.umlDiagrams;
     });
+  }
+
+  /* PAGINATION */
+  page: number = 1;
+  cardsPerPage: number = 6;
+
+  getTotalPages(): number {
+    return Math.ceil(this.umlDiagrams.length / this.cardsPerPage);
+  }
+
+  getNextPageLabel(): string {
+    if (this.page === this.getTotalPages()) {
+      return '';
+    }
+    return '»';
+  }
+
+  getPreviousPageLabel(): string {
+    if (this.page === 1) {
+      return '';
+    }
+    return '«';
+  }
+
+  onPageChange(newPage: number) {
+    this.page = newPage;
+    this.loadData();
   }
 }
