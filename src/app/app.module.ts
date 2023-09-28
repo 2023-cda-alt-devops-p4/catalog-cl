@@ -14,6 +14,8 @@ import { SearchBarComponent } from './components/main-view/search-bar/search-bar
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { PaginationComponent } from './components/main-view/cards-list/pagination/pagination.component';
+import { UmlListComponent } from './components/main-view/uml-list/uml-list.component';
+import { MeriseListComponent } from './components/main-view/merise-list/merise-list.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { PaginationComponent } from './components/main-view/cards-list/paginatio
     SearchBarComponent,
     CardDetailsComponent,
     PaginationComponent,
+    UmlListComponent,
+    MeriseListComponent,
   ],
   imports: [
     BrowserModule,
