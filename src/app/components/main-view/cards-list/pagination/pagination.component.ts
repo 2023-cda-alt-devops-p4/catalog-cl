@@ -9,8 +9,6 @@ export class PaginationComponent {
   @Input() page: number = 1;
   @Output() pageChange: EventEmitter<number> = new EventEmitter<number>();
  
-  @Input() nextPageLabel: string = 'Suivant';
-  @Input() previousPageLabel: string = 'Précédent';
-  @Input() firstPageLabel: string = 'Première page';
-  @Input() lastPageLabel: string = 'Dernière page';
+  @Input() nextPageLabel!: string;
+  @Input() previousPageLabel!: string; 
 }

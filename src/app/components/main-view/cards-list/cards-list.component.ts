@@ -30,37 +30,28 @@ export class CardsListComponent {
 
   /* PAGINATION */
   page: number = 1;
-  cardsPerPage: number = 8;
+  cardsPerPage: number = 5;
 
-  getFirstPageLabel(): string {
-    return this.page === 1 ? 'Suivant' : 'Première page';
+  getTotalPages(): number {
+    return Math.ceil(this.allDiagrams.length / this.cardsPerPage);
   }
 
   getNextPageLabel(): string {
     if (this.page === this.getTotalPages()) {
       return '';
     }
-    return 'Suivant';
+    return '»';
   }
 
   getPreviousPageLabel(): string {
     if (this.page === 1) {
       return '';
     }
-    return 'Précédent';
-  }
-
-  getLastPageLabel(): string {
-    const totalPages = this.getTotalPages();
-    return this.page === totalPages ? 'Dernière page' : 'Suivant';
+    return '«';
   }
 
   onPageChange(newPage: number) {
     this.page = newPage;
     this.loadData();
-  }
-
-  getTotalPages(): number {
-    return Math.ceil(this.allDiagrams.length / this.cardsPerPage);
   }
 }

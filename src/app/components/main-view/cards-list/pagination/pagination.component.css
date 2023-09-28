@@ -1,1 +1,29 @@
-/* PAGINATION */
+.pagination-controls {
+  display: flex;
+  justify-content: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+::ng-deep ul > li.active > a {
+  color: white !important;
+  background-color: none !important;
+}
+
+::ng-deep ul > li:not(.active) > a {
+  color: white !important;
+  background-color: none !important;
+}
+
+::ng-deep ul > li:not(.active):hover > a {
+  color: white !important;
+  background-color: grey !important;
+}
+
+::ng-deep ul > li:not(.active) > a::after {
+  display: none !important;
+}
+
+::ng-deep ul > li:not(.active) > a::before {
+  display: none !important;
+}
