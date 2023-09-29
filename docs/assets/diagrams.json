@@ -1,0 +1,182 @@
+{
+  "meriseDiagrams": [
+    {
+      "id": 16,
+      "name": "Diagramme de contexte",
+      "image": "https://online.visual-paradigm.com/servlet/editor-content/knowledge/system-context-diagram/what-is-system-context-diagram/sites/7/2019/08/system-context-diagram-example-sales-order-example.png",
+      "sourceImage": "https://online.visual-paradigm.com/servlet/editor-content/knowledge/system-context-diagram/what-is-system-context-diagram/sites/7/2019/08/system-context-diagram-example-sales-order-example.png",
+      "description": "Représente le système étudié en tant qu'entité unique et ses interactions avec les entités externes.",
+      "source": "Source"
+    },
+    {
+      "id": 17,
+      "name": "Diagramme des flux",
+      "image": "assets/diagram.png",
+      "sourceImage": "Source image",
+      "description": "Montre les flux d'informations entre les entités externes et le système étudié.",
+      "source": "Source"
+    },
+    {
+      "id": 18,
+      "name": "Diagramme des traitements",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/MCT_des_contributions_wiki.png/440px-MCT_des_contributions_wiki.png",
+      "sourceImage": "https://fr.wikipedia.org/wiki/Mod%C3%A8le_conceptuel_des_traitements",
+      "description": "Identifie les traitements effectués par le système sur les flux d'informations.",
+      "source": "Source"
+    },
+    {
+      "id": 19,
+      "name": "Diagramme des données",
+      "image": "assets/diagram.png",
+      "sourceImage": "Source image",
+      "description": "Représente les données manipulées par le système et les relations entre elles.",
+      "source": "Source"
+    },
+    {
+      "id": 20,
+      "name": "Diagramme des entités et associations",
+      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/ERD/discovery/erd-feature.svg",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-entite-association",
+      "description": "Identifie les entités du système, leurs attributs et les associations entre elles.",
+      "source": "Source"
+    },
+    {
+      "id": 21,
+      "name": "Diagramme de flux d'entités",
+      "image": "assets/diagram.png",
+      "sourceImage": "Source image",
+      "description": "Montre les flux d'entités entre les traitements du système.",
+      "source": "Source"
+    },
+    {
+      "id": 22,
+      "name": "Diagramme des flux de données",
+      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/data-flow-diagram/discovery/featured.svg",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/creer-un-diagramme-de-flux-de-donnees",
+      "description": "Montre les flux de données entre les processus du système.",
+      "source": "Source"
+    }
+  ],
+  "umlDiagrams": [
+    {
+      "id": 1,
+      "name": "Diagramme de cas d'utilisation",
+      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-use-case-diagram-examples/UML_Use_Case_Image.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-cas-dutilisation-uml",
+      "description": "Représente les fonctionnalités du système du point de vue de l'utilisateur.",
+      "source": "Source"
+    },
+    {
+      "id": 2,
+      "name": "Diagramme de séquence",
+      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-sequence-diagram-featured-image.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-sequence-uml",
+      "description": "Montre comment les objets interagissent dans une séquence temporelle.",
+      "source": "Source"
+    },
+    {
+      "id": 3,
+      "name": "Diagramme de collaboration",
+      "image": "assets/diagram.png",
+      "sourceImage": "https://laurent-audibert.developpez.com/Cours-UML/?page=diagrammes-interaction",
+      "description": "Similaire au diagramme de séquence, mais se concentre sur les interactions entre les objets.",
+      "source": "Source"
+    },
+    {
+      "id": 4,
+      "name": "Diagramme de classe",
+      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-Class-Diagram-Example-Transparent.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml",
+      "description": "Représente la structure statique du système avec des classes, des attributs et des méthodes.",
+      "source": "Source"
+    },
+    {
+      "id": 5,
+      "name": "Diagramme d'objet",
+      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-object-diagram-tutorial/Featured_Image.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-dobjets-uml",
+      "description": "Montre une instance particulière d'une classe et les relations entre les objets.",
+      "source": "Source"
+    },
+    {
+      "id": 6,
+      "name": "Diagramme d'état",
+      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-state-diagram-tutorial/FeaturedImage.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-etats-transitions-uml",
+      "description": "Représente les différents états d'un objet et ses transitions entre ces états.",
+      "source": "Source"
+    },
+    {
+      "id": 7,
+      "name": "Diagramme d'activité",
+      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-activity-diagram-examples-transparent.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-dactivite-uml",
+      "description": "Montre le flux de contrôle dans un processus ou une activité.",
+      "source": "Source"
+    },
+    {
+      "id": 8,
+      "name": "Diagramme de composants",
+      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-component-diagram-tutorial/FeaturedImage.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-composants-uml",
+      "description": "Représente les composants logiciels et leurs relations.",
+      "source": "Source"
+    },
+    {
+      "id": 9,
+      "name": "Diagramme de déploiement",
+      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-deployment-diagram-tutorial/FeaturedImage1.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-deploiement-uml",
+      "description": "Montre la disposition physique des composants matériels et logiciels sur un réseau.",
+      "source": "Source"
+    },
+    {
+      "id": 10,
+      "name": "Diagramme de package",
+      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/discovery-2020/feature-images/package-diagram-UML-feature-image-2020@2x.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-package-uml",
+      "description": "Organise les éléments du modèle en packages.",
+      "source": "Source"
+    },
+    {
+      "id": 11,
+      "name": "Diagramme de communication",
+      "image": "assets/diagrams/uml/communication-diagram.jpeg",
+      "sourceImage": "https://www.lucidchart.com/pages/uml-communication-diagram",
+      "description": "Montre les objets qui interagissent les uns avec les autres.",
+      "source": "Source"
+    },
+    {
+      "id": 12,
+      "name": "Diagramme de vue d'ensemble des interactions",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Iau-diagramm-1.png",
+      "sourceImage": "https://fr.wikipedia.org/wiki/Diagramme_global_d%27interaction",
+      "description": "Combine des éléments de diagrammes de séquence et de diagrammes d'activité.",
+      "source": "Source"
+    },
+    {
+      "id": 13,
+      "name": "Diagramme de synchronisation",
+      "image": "assets/diagrams/uml/timing-diagram.jpeg",
+      "sourceImage": "https://www.edrawsoft.com/fr/article/timing-diagram-explained.html",
+      "description": "Représente les interactions temporelles entre des objets.",
+      "source": "Source"
+    },
+    {
+      "id": 14,
+      "name": "Diagramme de modèle de composant",
+      "image": "assets/diagram.png",
+      "sourceImage": "Source image",
+      "description": "Montre la structure interne d'une classe ou d'un composant.",
+      "source": "Source"
+    },
+    {
+      "id": 15,
+      "name": "Diagramme de temps",
+      "image": "assets/diagram.png",
+      "sourceImage": "Source image",
+      "description": "Représente le temps nécessaire pour exécuter une séquence d'opérations.",
+      "source": "Source"
+    }
+  ]
+}
