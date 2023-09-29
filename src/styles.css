@@ -11,7 +11,13 @@ body {
   /* Background */
   color: white;
   font-family: "Rubik", sans-serif;
-  background-image: url("./assets/luis-del-rio.jpg");
-  background-size: cover;
+  background-image: url("./assets/luis-del-rio.avif");
+  background-size:cover;
   background-position:initial;
+}
+
+@media (max-width: 390px) {
+  body {
+    background-size: fill;
+  }
 }

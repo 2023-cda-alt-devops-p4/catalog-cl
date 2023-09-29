@@ -40,10 +40,8 @@
             },
             "development": {
               "buildOptimizer": true,
-
               "vendorChunk": true,
               "extractLicenses": false,
-
               "namedChunks": true
             }
           },
