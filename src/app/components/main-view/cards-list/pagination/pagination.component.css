@@ -1,8 +1,22 @@
 .pagination-controls {
   display: flex;
   justify-content: center !important;
+  text-align: center !important;
   padding: 0 !important;
   margin: 0 !important;
+  margin-right: 10% !important;
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .pagination-controls {
+    margin-right: 6% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .pagination-controls {
+    margin-right: 4% !important;
+  }
 }
 
 ::ng-deep ul > li.active > a {

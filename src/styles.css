@@ -12,12 +12,17 @@ body {
   color: white;
   font-family: "Rubik", sans-serif;
   background-image: url("./assets/luis-del-rio.avif");
-  background-size:cover;
-  background-position:initial;
+  background-size: cover;
+  background-position: initial;
 }
 
-@media (max-width: 390px) {
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 576px) {
   body {
     background-size: fill;
+    background-image: url("./assets/sm-luis-del-rio-sm.avif");
   }
 }
