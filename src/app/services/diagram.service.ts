@@ -29,4 +29,19 @@ export class DiagramService {
       })
     );
   }
+
+  /* BY NAME */
+  getDiagramByName(name: string): Observable<Card | undefined> {
+    return this.getDiagramData().pipe(
+      map((data) => {
+        const meriseDiagram = data.meriseDiagrams.find((diagram) => diagram.name === name);
+        if (meriseDiagram) {
+          return meriseDiagram;
+        }
+        const umlDiagram = data.umlDiagrams.find((diagram) => diagram.name === name);
+        return umlDiagram;
+      })
+    );
+  }
+  
 }

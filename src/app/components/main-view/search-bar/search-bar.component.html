@@ -1,4 +1,9 @@
 <div class="search-bar">
-  <input type="search" [(ngModel)]="searchQuery" placeholder="Rechercher" />
-  <button (click)="performSearch()">Rechercher</button>
+  <input
+    type="search"
+    [(ngModel)]="searchTerm"
+    placeholder="Rechercher par nom"
+    (keyup.enter)="searchDiagram()"
+  />
+  <button (click)="searchDiagram()">Rechercher</button>
 </div>
