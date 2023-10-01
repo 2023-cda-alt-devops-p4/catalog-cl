@@ -5,16 +5,16 @@
   </div>
   <ul *ngIf="!isMobileView || (isMobileView && isMenuOpen)" class="nav-list">
     <li class="nav-item">
-      <a routerLink="/main-view" class="nav-link">Accueil</a>
+      <a (click)="toggleMenu()" routerLink="/main-view" class="nav-link">Accueil</a>
     </li>
     <li class="nav-item">
-      <a routerLink="/uml" class="nav-link">Diagrammes UML 🌀</a>
+      <a (click)="toggleMenu()" routerLink="/uml" class="nav-link">Diagrammes UML 🌀</a>
     </li>
     <li class="nav-item">
-      <a routerLink="/merise" class="nav-link">Diagrammes Merise ☀️</a>
+      <a (click)="toggleMenu()" routerLink="/merise" class="nav-link">Diagrammes Merise ☀️</a>
     </li>
     <li class="nav-item">
-      <a routerLink="/contact" class="nav-link">Contact</a>
+      <a (click)="toggleMenu()" routerLink="/contact" class="nav-link">Contact</a>
     </li>
   </ul>
 </nav>
