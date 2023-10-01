@@ -1,0 +1,26 @@
+section {
+  text-align: center;
+  height: 18.75rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 3rem;
+}
+
+a {
+  padding: 0.5rem 0.7rem;
+  background-color: red;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
