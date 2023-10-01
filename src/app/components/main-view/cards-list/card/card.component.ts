@@ -12,11 +12,11 @@ export class CardComponent {
   /* RANDOM BACKGROUND */
   getBackgroundImage(diagramId: number): string {
     const backgroundImages = [
-      'assets/backgrounds/eva-bronzini.jpeg',
-      'assets/backgrounds/henry-_-co.jpeg',
-      'assets/backgrounds/la-miko.jpeg', 
-      'assets/backgrounds/madison-inouye.jpeg',
-      'src/assets/backgrounds/sasha-martynov.jpeg',
+      'assets/backgrounds/compressed-backgrounds/eva-bronzini.jpeg',
+      'assets/backgrounds/compressed-backgrounds/henry-_-co.jpeg',
+      'assets/backgrounds/compressed-backgrounds/la-miko.jpeg', 
+      'assets/backgrounds/compressed-backgrounds/madison-inouye.jpeg',
+      'src/assets/backgrounds/compressed-backgrounds/sasha-martynov.jpeg',
     ];
     return backgroundImages[diagramId % 4];
   }
