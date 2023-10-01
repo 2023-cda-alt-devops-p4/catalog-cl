@@ -42,13 +42,22 @@
   border: none;
 }
 
-/* Collapse */
+/* CONTRASTING MODE */
+.contrasting-mode,
+.contrasting-mode .logos a,
+.contrasting-mode .menu-toggle,
+.contrasting-mode .nav-link {
+  background-color: rgb(235, 233, 233);
+  color: black;
+}
+
+/* COLLAPSED */
 @media (max-width: 768px) {
   .navbar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem 0rem 1rem;
   }
 
   .logos {
@@ -62,5 +71,9 @@
 
   .nav-item {
     padding: 0.2rem 0;
+  }
+
+  .nav-item:last-child {
+    padding-bottom: 0.8rem;
   }
 }

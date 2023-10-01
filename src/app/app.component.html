@@ -1,12 +1,18 @@
 <!-- Navigation -->
 <app-navigation></app-navigation>
 
-<!-- Header -->
-<app-header></app-header>
+<div
+  [ngClass]="{
+    'contrasting-mode': contrastingModeService.isContrastingModeEnabled()
+  }"
+>
+  <!-- Header -->
+  <app-header></app-header>
 
-<!--Main layout-->
-<div>
-  <router-outlet></router-outlet>
+  <!--Main layout-->
+  <div>
+    <router-outlet></router-outlet>
+  </div>
 </div>
 
 <!-- Footer-->

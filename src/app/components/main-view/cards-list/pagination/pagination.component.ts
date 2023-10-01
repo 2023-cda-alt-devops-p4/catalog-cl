@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { ContrastingModeService } from 'src/app/services/contrasting-mode.service';
 
 @Component({
   selector: 'app-pagination',
@@ -8,7 +9,9 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 export class PaginationComponent {
   @Input() page: number = 1;
   @Output() pageChange: EventEmitter<number> = new EventEmitter<number>();
- 
+
   @Input() nextPageLabel!: string;
-  @Input() previousPageLabel!: string; 
+  @Input() previousPageLabel!: string;
+
+  constructor(public contrastingModeService: ContrastingModeService) {}
 }

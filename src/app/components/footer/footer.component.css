@@ -3,5 +3,12 @@ footer {
   background-color: black;
   margin-top: 3rem;
   margin-bottom: 0;
-  text-align: center; 
+  text-align: center;
+}
+
+/* CONTRASTING MODE */
+.contrasting-mode {
+  margin: 0;
+  color: black;
+  background-color: rgb(235, 233, 233);
 }

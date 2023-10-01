@@ -1,8 +1,7 @@
 <div
   class="card"
   [style.backgroundImage]="'url(' + getBackgroundImage(diagram.id) + ')'"
-  [style.backgroundSize]="'cover'"
-  [routerLink]="['/diagram-details', diagram.id]"
+  [style.backgroundSize]="'cover'" 
 >
   <h2>{{ diagram.name }}</h2>
   <img src="{{ diagram.image }}" alt="Diagram image" />

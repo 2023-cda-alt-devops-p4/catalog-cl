@@ -1,4 +1,6 @@
-<div class="pagination-controls">
+<div class="pagination-controls" [ngClass]="{
+  'contrasting-mode': contrastingModeService.isContrastingModeEnabled()
+}">
   <pagination-controls
     (pageChange)="pageChange.emit($event)"
     [nextLabel]="nextPageLabel"

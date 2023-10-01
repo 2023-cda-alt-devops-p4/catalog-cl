@@ -1,4 +1,5 @@
 import { Component, HostListener } from '@angular/core';
+import { ContrastingModeService } from 'src/app/services/contrasting-mode.service';
 
 @Component({
   selector: 'app-navigation',
@@ -8,6 +9,8 @@ import { Component, HostListener } from '@angular/core';
 export class NavigationComponent {
   isMenuOpen = false;
   isMobileView = false;
+
+  constructor(public contrastingModeService: ContrastingModeService) {}
 
   ngOnInit() {
     this.checkIfMobile();

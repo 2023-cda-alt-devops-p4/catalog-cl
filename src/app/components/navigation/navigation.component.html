@@ -1,20 +1,33 @@
-<nav class="navbar">
+<nav
+  class="navbar"
+  [ngClass]="{
+    'contrasting-mode': contrastingModeService.isContrastingModeEnabled()
+  }"
+>
   <div *ngIf="isMobileView" class="logos">
     <a routerLink="/">&#10087;</a>
     <button (click)="toggleMenu()" class="menu-toggle">&#9776;</button>
   </div>
   <ul *ngIf="!isMobileView || (isMobileView && isMenuOpen)" class="nav-list">
     <li class="nav-item">
-      <a (click)="toggleMenu()" routerLink="/main-view" class="nav-link">Accueil</a>
+      <a (click)="toggleMenu()" routerLink="/main-view" class="nav-link"
+        >Accueil</a
+      >
     </li>
     <li class="nav-item">
-      <a (click)="toggleMenu()" routerLink="/uml" class="nav-link">Diagrammes UML 🌀</a>
+      <a (click)="toggleMenu()" routerLink="/uml" class="nav-link"
+        >Diagrammes UML 🌀</a
+      >
     </li>
     <li class="nav-item">
-      <a (click)="toggleMenu()" routerLink="/merise" class="nav-link">Diagrammes Merise ☀️</a>
+      <a (click)="toggleMenu()" routerLink="/merise" class="nav-link"
+        >Diagrammes Merise ☀️</a
+      >
     </li>
     <li class="nav-item">
-      <a (click)="toggleMenu()" routerLink="/contact" class="nav-link">Contact</a>
+      <app-toggle-contrast-button
+        (click)="toggleMenu()"
+      ></app-toggle-contrast-button>
     </li>
   </ul>
 </nav>

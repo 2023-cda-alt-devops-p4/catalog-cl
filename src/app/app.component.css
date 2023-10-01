@@ -1,0 +1,6 @@
+.contrasting-mode,
+.contrasting-mode h1,
+.contrasting-mode h3 {
+  color: black;
+  background-color: white;
+}

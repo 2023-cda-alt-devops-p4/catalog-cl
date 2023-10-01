@@ -5,6 +5,41 @@
   padding: 0 !important;
   margin: 0 !important;
   margin-right: 10% !important;
+
+  ::ng-deep ul > li.active > a {
+    color: white !important;
+    background-color: none !important;
+  }
+
+  ::ng-deep ul > li:not(.active) > a {
+    color: white !important;
+    background-color: none !important;
+  }
+
+  ::ng-deep ul > li:not(.active):hover > a {
+    color: white !important;
+    background-color: grey !important;
+  }
+
+  ::ng-deep ul > li:not(.active) > a::after {
+    display: none !important;
+  }
+
+  ::ng-deep ul > li:not(.active) > a::before {
+    display: none !important;
+  }
+}
+
+/* CONTRASTING MODE */
+.contrasting-mode,
+.contrasting-mode .pagination-controls,
+.contrasting-mode ::ng-deep ul {
+  color: black !important;
+}
+
+.contrasting-mode ::ng-deep ul > li {
+  background-color: rgb(235, 233, 233);
+  border-radius: 5px;
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -17,27 +52,4 @@
   .pagination-controls {
     margin-right: 4% !important;
   }
-}
-
-::ng-deep ul > li.active > a {
-  color: white !important;
-  background-color: none !important;
-}
-
-::ng-deep ul > li:not(.active) > a {
-  color: white !important;
-  background-color: none !important;
-}
-
-::ng-deep ul > li:not(.active):hover > a {
-  color: white !important;
-  background-color: grey !important;
-}
-
-::ng-deep ul > li:not(.active) > a::after {
-  display: none !important;
-}
-
-::ng-deep ul > li:not(.active) > a::before {
-  display: none !important;
 }
