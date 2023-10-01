@@ -1,13 +1,38 @@
 <section>
-  <div class="diagram-page">
-    <h2>{{ diagram.name }}</h2>
-    <p>{{ diagram.description }}</p>
-    <img [src]="diagram.image" alt="Diagram image" />
-
-    <h3>Source de l'image :</h3>
-    <p>{{ diagram.sourceImage }}</p>
-
-    <h3>Source :</h3>
-    <p>{{ diagram.source }}</p>
+  <div class="diagram-container">
+    <h1>{{ diagram.name }}</h1>
+    <div class="content-container">
+      <div class="image-container">
+        <img [src]="diagram.image" alt="Diagram image" />
+        <a href="{{ diagram.sourceImage }}" target="_blank"
+          ><i>Source image</i></a
+        >
+      </div>
+      <div class="text-container">
+        <div class="diagram-description">
+          <p>
+            {{ diagram.description }} Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Assumenda mollitia fuga autem id saepe, pariatur,
+            magni numquam, eligendi delectus possimus aperiam expedita
+            exercitationem laudantium? Numquam sit maxime illo voluptates
+            impedit?
+          </p>
+        </div>
+        <div class="diagram-uses diagram-box">
+          <h3>On l'utilise quand ?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            libero cumque expedita in similique tenetur debitis ullam! Rerum
+            quae maxime architecto harum, velit animi dolorem earum nihil.
+            Accusantium, nihil et?
+          </p>
+        </div>
+        <div class="diagram-method diagram-box">
+          <h3>Comment procéder ?</h3>
+          <p>Méthode à suivre ul + li Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum id corrupti, facere ut impedit quibusdam? Sequi ex voluptatibus quia. Ratione deleniti voluptate perspiciatis tenetur quod architecto minus molestias provident quo!</p>
+        </div>
+        <a href="{{ diagram.source }}" target="_blank"><i>Sources</i></a>
+      </div>
+    </div>
   </div>
 </section>

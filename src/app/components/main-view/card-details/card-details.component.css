@@ -1,24 +1,111 @@
-.diagram-page {
-  margin: 2rem;
-  font-size: 1rem;
+/* MOBILE FIRST */
+
+section {
+  margin-top: 0;
+  color: black;
 }
 
-h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+.diagram-container {
+  background-color: white;
+  border-radius: 10px;
+  margin: 0rem 2rem;
+  font-size: 1rem;
+  padding: 0.8rem 1.25rem;
+  padding-bottom: 2rem;
 }
 
-p {
-  font-size: 1rem;
+.diagram-container h1 {
+  text-align: center;
+  font-size: 2.1rem;
   margin-bottom: 1rem;
+  margin-top: 0.7rem;
 }
 
-img {
+.image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.image-container img {
   max-width: 100%;
   height: auto;
+  background-color: white;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ebe7e7;
+  border-radius: 5px;
+  box-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.1);
+}
+
+.image-container a {
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-style: none;
+  font-size: 0.8rem;
+  color: rgb(180, 177, 177);
+}
+
+.text-container {
+  gap: 1rem;
+}
+
+.diagram-description p {
   margin-bottom: 1rem;
 }
 
-h3 {
-  font-size: 1.2rem;
+.diagram-box {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  color: black;
+}
+
+.diagram-box h3 {
+  margin: 0;
+  margin-top: 0.4rem;
+  margin-left: 0.7rem;
+}
+
+.diagram-box p {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.diagram-uses {
+  background-color: #c7dbb6;
+}
+
+.diagram-method {
+  background-color: #f4e5d5;
+}
+
+/* TABLETS AND MORE */
+@media (min-width: 576px) {
+  .diagram-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .diagram-container h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2rem;
+  }
+
+  .content-container {
+    gap: 1rem;
+    display: flex;
+  }
+
+  .image-container {
+    flex: 40%;
+  }
+
+  .text-container {
+    flex: 60%;
+  }
 }
