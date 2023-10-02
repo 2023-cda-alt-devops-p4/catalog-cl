@@ -1,59 +1,73 @@
 {
   "meriseDiagrams": [
     {
-      "id": 16,
+      "id": 13,
       "name": "Diagramme de contexte",
       "image": "https://online.visual-paradigm.com/servlet/editor-content/knowledge/system-context-diagram/what-is-system-context-diagram/sites/7/2019/08/system-context-diagram-example-sales-order-example.png",
       "sourceImage": "https://online.visual-paradigm.com/servlet/editor-content/knowledge/system-context-diagram/what-is-system-context-diagram/sites/7/2019/08/system-context-diagram-example-sales-order-example.png",
       "description": "Représente le système étudié en tant qu'entité unique et ses interactions avec les entités externes.",
+      "uses": "",
+      "method": "",
       "source": "Source"
     },
     {
-      "id": 17,
+      "id": 14,
       "name": "Diagramme des flux",
       "image": "assets/diagram.png",
       "sourceImage": "Source image",
       "description": "Montre les flux d'informations entre les entités externes et le système étudié.",
+      "uses": "",
+      "method": "",
       "source": "Source"
     },
     {
-      "id": 18,
+      "id": 15,
       "name": "Diagramme des traitements",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/MCT_des_contributions_wiki.png/440px-MCT_des_contributions_wiki.png",
       "sourceImage": "https://fr.wikipedia.org/wiki/Mod%C3%A8le_conceptuel_des_traitements",
       "description": "Identifie les traitements effectués par le système sur les flux d'informations.",
+      "uses": "",
+      "method": "",
       "source": "Source"
     },
     {
-      "id": 19,
+      "id": 16,
       "name": "Diagramme des données",
       "image": "assets/diagram.png",
       "sourceImage": "Source image",
       "description": "Représente les données manipulées par le système et les relations entre elles.",
+      "uses": "",
+      "method": "",
       "source": "Source"
     },
     {
-      "id": 20,
+      "id": 17,
       "name": "Diagramme des entités et associations",
       "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/ERD/discovery/erd-feature.svg",
       "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-entite-association",
       "description": "Identifie les entités du système, leurs attributs et les associations entre elles.",
+      "uses": "",
+      "method": "",
       "source": "Source"
     },
     {
-      "id": 21,
+      "id": 18,
       "name": "Diagramme de flux d'entités",
       "image": "assets/diagram.png",
       "sourceImage": "Source image",
       "description": "Montre les flux d'entités entre les traitements du système.",
+      "uses": "",
+      "method": "",
       "source": "Source"
     },
     {
-      "id": 22,
+      "id": 19,
       "name": "Diagramme des flux de données",
       "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/data-flow-diagram/discovery/featured.svg",
       "sourceImage": "https://www.lucidchart.com/pages/fr/creer-un-diagramme-de-flux-de-donnees",
       "description": "Montre les flux de données entre les processus du système.",
+      "uses": "",
+      "method": "",
       "source": "Source"
     }
   ],
@@ -61,122 +75,122 @@
     {
       "id": 1,
       "name": "Diagramme de cas d'utilisation",
-      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-use-case-diagram-examples/UML_Use_Case_Image.png",
+      "image": "assets/diagrams/uml/compressed-uml/use-case.png",
       "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-cas-dutilisation-uml",
-      "description": "Représente les fonctionnalités du système du point de vue de l'utilisateur.",
-      "source": "Source"
+      "description": "UML - Représente les fonctionnalités du système ou de l'application du point de vue de l'utilisateur.",
+      "uses": "→ Pour modéliser le flux de base des événements dans un cas d'utilisation →\u00A0Préciser le contexte et les exigences d'un sytème →\u00A0Définir les objectifs des interactions entre le système et les utilisateurs.",
+      "method": "On retrouve les cas d'utilisation (formes ovales), les acteurs (personne, organisation ou système externe), les associations (lignes entre acteurs et cas d'utilisation), des paquets pour regrouper différents éléments, le scénario (actions et interactions entre acteurs et système), les objectifs.",
+      "source": "https://www.lucidchart.com/pages/fr/diagramme-de-cas-dutilisation-uml"
     },
     {
       "id": 2,
       "name": "Diagramme de séquence",
-      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-sequence-diagram-featured-image.png",
+      "image": "assets/diagrams/uml/compressed-uml/sequence.png",
       "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-sequence-uml",
-      "description": "Montre comment les objets interagissent dans une séquence temporelle.",
-      "source": "Source"
+      "description": "UML - Décrit comment et dans quel ordre plusieurs objets fonctionnent ensemble dans une séquence temporelle.",
+      "uses": "→ Via un scénario d'utilisation du système →\u00A0Pour analyser la logique d'une fonction, d'une procédure ou d'un processus complexe",
+      "method": "On utilise un symbole objet pour représenter une classe ou un objet, une boîte d'activation qui représentera le temps nécessaire pour une tâche plus ou moins longue, des symboles d'acteurs, de ligne de vie (le passage du temps). Les flèches représentent des symboles de messages asynchrones (retour, réponse et/ou création).",
+      "source": "https://www.lucidchart.com/pages/fr/diagramme-de-sequence-uml"
     },
     {
       "id": 3,
-      "name": "Diagramme de collaboration",
-      "image": "assets/diagram.png",
-      "sourceImage": "https://laurent-audibert.developpez.com/Cours-UML/?page=diagrammes-interaction",
-      "description": "Similaire au diagramme de séquence, mais se concentre sur les interactions entre les objets.",
-      "source": "Source"
+      "name": "Diagramme de classes",
+      "image": "assets/diagrams/uml/compressed-uml/class.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml",
+      "description": "UML - Représente la structure statique du système avec des classes, des attributs et des méthodes.",
+      "uses": "→\u00A0Pour illustrer des modèles de données.→\u00A0Pour fournir une description des schémas d'une application.",
+      "method": "Il y a trois sections\u00A0: supérieure (nom de la classe), intermédiaire (attributs) et inférieure (opérations et méthodes).",
+      "source": "https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml"
     },
     {
       "id": 4,
-      "name": "Diagramme de classe",
-      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-Class-Diagram-Example-Transparent.png",
-      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml",
-      "description": "Représente la structure statique du système avec des classes, des attributs et des méthodes.",
-      "source": "Source"
+      "name": "Diagramme d'objets",
+      "image": "assets/diagrams/uml/compressed-uml/object.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-dobjets-uml",
+      "description": "UML - Montre une instance particulière d'une classe et les relations entre les objets.",
+      "uses": "→\u00A0Pour obtenir une vue d'ensemble de ce qu'il y a à développer.",
+      "method": "On retrouve les objets (instances d'une classe) représentés par des rectangles et reliés par des lignes, les titres de classe, des attributs de classe, des liens",
+      "source": "https://www.lucidchart.com/pages/fr/diagramme-dobjets-uml"
     },
     {
       "id": 5,
-      "name": "Diagramme d'objet",
-      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-object-diagram-tutorial/Featured_Image.png",
-      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-dobjets-uml",
-      "description": "Montre une instance particulière d'une classe et les relations entre les objets.",
-      "source": "Source"
+      "name": "Diagramme d'états-transitions",
+      "image": "assets/diagrams/uml/compressed-uml/state.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-etats-transitions-uml",
+      "description": "UML - Représente les différents états d'un objet et ses transitions entre ces états.",
+      "uses": "→ Pour illustrer des cas d'utilisation liés à des événements. →\u00A0Pour décrire une progression.",
+      "method": "Les états sont représentés par des rectangles aux coins arrondis, les transitions par des flèches entre des états.",
+      "source": "https://www.lucidchart.com/pages/fr/diagramme-etats-transitions-uml"
     },
     {
       "id": 6,
-      "name": "Diagramme d'état",
-      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-state-diagram-tutorial/FeaturedImage.png",
-      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-etats-transitions-uml",
-      "description": "Représente les différents états d'un objet et ses transitions entre ces états.",
-      "source": "Source"
+      "name": "Diagramme d'activités",
+      "image": "assets/diagrams/uml/compressed-uml/activity.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-dactivite-uml",
+      "description": "UML - Représente le flux des activités au sein d'un système, d'un processus ou d'un algorithme.",
+      "uses": "→ Pour aider les intervenants à collaborer →\u00A0Pour modéliser les processus métier (optimisation de workflows, conception de nouveaux processus...). →\u00A0Modéliser le comportement d'un système logiciel. → Représenter le flux d'interaction d'un utilisateur avec une application (UX)...",
+      "method": "On retrouve les actions (tâches des utilisateurs ou du logiciel -\u00A0rectangles arrondis), des noeuds de décision (losanges),  les flux de contrôle (des flèches reliant les activités) indiquant l'ordre dans lequel elles sont exécutées, un noeud de départ (cercle noir), un noeud de fin (cercle noir avec un contour.",
+      "source": "https://www.lucidchart.com/pages/fr/diagramme-dactivite-uml"
     },
     {
       "id": 7,
-      "name": "Diagramme d'activité",
-      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-activity-diagram-examples-transparent.png",
-      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-dactivite-uml",
-      "description": "Montre le flux de contrôle dans un processus ou une activité.",
-      "source": "Source"
+      "name": "Diagramme de composants",
+      "image": "assets/diagrams/uml/compressed-uml/component.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-composants-uml",
+      "description": "UML - Représente les composants logiciels et leurs relations.",
+      "uses": "→\u00A0Pour imaginer la structure du système.→\u00A0Mettre en évidence les composants et leurs relations.",
+      "method": "On retrouve des symboles de composant, de noeud, d'interface, de port, de paquetage, de dépendance.",
+      "source": "https://www.lucidchart.com/pages/fr/diagramme-de-composants-uml"
     },
     {
       "id": 8,
-      "name": "Diagramme de composants",
-      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-component-diagram-tutorial/FeaturedImage.png",
-      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-composants-uml",
-      "description": "Représente les composants logiciels et leurs relations.",
-      "source": "Source"
+      "name": "Diagramme de déploiement",
+      "image": "assets/diagrams/uml/compressed-uml/deployment.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-deploiement-uml",
+      "description": "UML - Montre la disposition physique des composants matériels et logiciels sur un réseau.",
+      "uses": "→\u00A0Pour visualiser la typologie du système matériel. →\u00A0Illustrer le traitement d'exécution.",
+      "method": "On utilise plusieurs éléments\u00A0: l'artefact (le produit), l'association (ligne), le composant (élément logique), la dépendance (ligne fléchée en pointillés entre le lien de dépendance entre deux éléments), l'interface (cercle), le noeud (élément matériel ou logiciel), le noeud conteneur (qui en contient un autre), le stéréotype (contenu dans le noeud).",
+      "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
     },
     {
       "id": 9,
-      "name": "Diagramme de déploiement",
-      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/UML-deployment-diagram-tutorial/FeaturedImage1.png",
-      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-de-deploiement-uml",
-      "description": "Montre la disposition physique des composants matériels et logiciels sur un réseau.",
-      "source": "Source"
+      "name": "Diagramme de paquetages",
+      "image": "assets/diagrams/uml/compressed-uml/package.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-package-uml",
+      "description": "UML - Organise les éléments du modèle en paquetages.",
+      "uses": "→\u00A0Pour représenter l'organisation et la disposition de divers éléments UML.→\u00A0Donner un aperçu visuel de l'architecture en couches d'un classifieur UML.",
+      "method": "Il n'y a que deux symboles\u00A0: le package et l'interdépendance (flèche en pointillés).",
+      "source": "https://www.lucidchart.com/pages/fr/diagramme-package-uml"
     },
     {
       "id": 10,
-      "name": "Diagramme de package",
-      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/discovery-2020/feature-images/package-diagram-UML-feature-image-2020@2x.png",
-      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-package-uml",
-      "description": "Organise les éléments du modèle en packages.",
-      "source": "Source"
+      "name": "Diagramme de communication",
+      "image": "assets/diagrams/uml/compressed-uml/communication.png",
+      "sourceImage": "https://www.lucidchart.com/pages/uml-communication-diagram",
+      "description": "UML - Montre les objets qui interagissent les uns avec les autres, met l'accent sur les messages échangés.",
+      "uses": "→\u00A0Pour modéliser la logique d'une procédure, d'une opération. →\u00A0Pour planifier et comprendre les fonctionnalités d'un scénario",
+      "method": "Les symboles et notations utilisés sont les mêmes que pour les diagrammes de séquence.",
+      "source": "https://www.lucidchart.com/pages/uml-communication-diagram"
     },
     {
       "id": 11,
-      "name": "Diagramme de communication",
-      "image": "assets/diagrams/uml/communication-diagram.jpeg",
-      "sourceImage": "https://www.lucidchart.com/pages/uml-communication-diagram",
-      "description": "Montre les objets qui interagissent les uns avec les autres.",
-      "source": "Source"
+      "name": "Diagramme d'aperçu des interactions",
+      "image": "assets/diagrams/uml/compressed-uml/global-interaction.jpg",
+      "sourceImage": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML",
+      "description": "UML - Combine des éléments de diagrammes de séquence et de diagrammes d'activité.",
+      "uses": "→\u00A0Pour avoir un aperçu du flux de contrôle entre des noeuds en interaction.",
+      "method": "On y inclut les noeuds initiaux, les noeuds finaux de flux, les noeuds finaux d'activité, les noeuds de décision, les noeuds de fusion, les noeuds de bifurcation et les noeuds de jonction.",
+      "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
     },
     {
       "id": 12,
-      "name": "Diagramme de vue d'ensemble des interactions",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Iau-diagramm-1.png",
-      "sourceImage": "https://fr.wikipedia.org/wiki/Diagramme_global_d%27interaction",
-      "description": "Combine des éléments de diagrammes de séquence et de diagrammes d'activité.",
-      "source": "Source"
-    },
-    {
-      "id": 13,
-      "name": "Diagramme de synchronisation",
-      "image": "assets/diagrams/uml/timing-diagram.jpeg",
-      "sourceImage": "https://www.edrawsoft.com/fr/article/timing-diagram-explained.html",
-      "description": "Représente les interactions temporelles entre des objets.",
-      "source": "Source"
-    },
-    {
-      "id": 14,
-      "name": "Diagramme de modèle de composant",
-      "image": "assets/diagram.png",
-      "sourceImage": "Source image",
-      "description": "Montre la structure interne d'une classe ou d'un composant.",
-      "source": "Source"
-    },
-    {
-      "id": 15,
       "name": "Diagramme de temps",
-      "image": "assets/diagram.png",
-      "sourceImage": "Source image",
-      "description": "Représente le temps nécessaire pour exécuter une séquence d'opérations.",
-      "source": "Source"
+      "image": "assets/diagrams/uml/compressed-uml/timing.png",
+      "sourceImage": "https://www.lucidchart.com/pages/uml-timing-diagram",
+      "description": "UML - Représente le temps nécessaire pour exécuter une séquence d'opérations.",
+      "uses": "→\u00A0Identifier les principales étapes pour terminer un processus",
+      "method": "Un chronogramme, à considérer comme un diagramme de séquence inversé",
+      "source": "https://www.lucidchart.com/pages/uml-timing-diagram"
     }
   ]
 }

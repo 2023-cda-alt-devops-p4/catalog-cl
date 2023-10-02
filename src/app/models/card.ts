@@ -4,5 +4,7 @@ export interface Card {
   image: string;
   sourceImage: string;
   description: string;
+  uses: string;
+  method: string;
   source: string;
 }
