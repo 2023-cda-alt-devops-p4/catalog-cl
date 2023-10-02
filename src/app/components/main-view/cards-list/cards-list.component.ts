@@ -30,7 +30,7 @@ export class CardsListComponent {
 
   /* PAGINATION */
   page: number = 1;
-  cardsPerPage: number = 6;
+  cardsPerPage: number = 5;
 
   getTotalPages(): number {
     return Math.ceil(this.allDiagrams.length / this.cardsPerPage);
