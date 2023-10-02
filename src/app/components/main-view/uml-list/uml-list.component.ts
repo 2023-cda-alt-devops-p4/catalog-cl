@@ -24,7 +24,7 @@ export class UmlListComponent {
 
   /* PAGINATION */
   page: number = 1;
-  cardsPerPage: number = 6;
+  cardsPerPage: number = 5;
 
   getTotalPages(): number {
     return Math.ceil(this.umlDiagrams.length / this.cardsPerPage);
