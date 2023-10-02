@@ -2,73 +2,53 @@
   "meriseDiagrams": [
     {
       "id": 13,
-      "name": "Diagramme de contexte",
-      "image": "https://online.visual-paradigm.com/servlet/editor-content/knowledge/system-context-diagram/what-is-system-context-diagram/sites/7/2019/08/system-context-diagram-example-sales-order-example.png",
-      "sourceImage": "https://online.visual-paradigm.com/servlet/editor-content/knowledge/system-context-diagram/what-is-system-context-diagram/sites/7/2019/08/system-context-diagram-example-sales-order-example.png",
-      "description": "Représente le système étudié en tant qu'entité unique et ses interactions avec les entités externes.",
-      "uses": "",
-      "method": "",
-      "source": "Source"
+      "name": "Diagramme entité-relation",
+      "image": "assets/diagrams/merise/erd.png",
+      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-entite-association",
+      "description": "MERISE - Identifie les entités du système, leurs attributs et les associations entre elles.",
+      "uses": "→\u00A0Pour permettre de modéliser la structure des données et les associations entre les entités.→\u00A0Pour résoudre des problèmes de bases de données.",
+      "method": "On utilise une série de symboles tels que des rectangles, losanges et ovales reliés par des lignes pour décrire les interconnexions entre les entités, leurs relations et leurs attributs. Les trois principaux types de relations (cardinalité)) sont un à un, un à plusieurs et plusieurs à plusieurs.",
+      "source": "https://www.lucidchart.com/pages/fr/diagramme-entite-association"
     },
     {
       "id": 14,
-      "name": "Diagramme des flux",
-      "image": "assets/diagram.png",
-      "sourceImage": "Source image",
-      "description": "Montre les flux d'informations entre les entités externes et le système étudié.",
-      "uses": "",
-      "method": "",
-      "source": "Source"
+      "name": "Diagramme des flux de données",
+      "image": "assets/diagrams/merise/data-flow.png",
+      "sourceImage": "https://www.lucidchart.com/pages/data-flow-diagram",
+      "description": "MERISE - Montre les flux de données entre les processus du système.",
+      "uses": "→\u00A0Pour modéliser le traitement des données à l'intérieur d'un système d'information.→\u00A0Pour identifier les flux de données (de sortie ou d'entrée).→\u00A0Montrer comment elles sont transformées à travers différents processus.",
+      "method": "On utilise des symboles comme des rectangles, des cercles et des flèches, ainsi que de courtes étiquettes de texte, pour afficher les entrées de données, les sorties, les points de stockage et les itinéraires entre chaque destination.",
+      "source": "https://www.lucidchart.com/pages/data-flow-diagram"
     },
     {
       "id": 15,
-      "name": "Diagramme des traitements",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/MCT_des_contributions_wiki.png/440px-MCT_des_contributions_wiki.png",
-      "sourceImage": "https://fr.wikipedia.org/wiki/Mod%C3%A8le_conceptuel_des_traitements",
-      "description": "Identifie les traitements effectués par le système sur les flux d'informations.",
-      "uses": "",
-      "method": "",
-      "source": "Source"
+      "name": "Diagramme organisationnel ou de contexte",
+      "image": "assets/diagrams/merise/context.jpg",
+      "sourceImage": "https://www.lucidchart.com/pages/examples/context-diagram-software",
+      "description": "MERISE - Montre la manière dont le système interagit avec son environnement. Il met en évidence les acteurs externes et les interfaces du système.",
+      "uses": "→\u00A0Pour modéliser les interactions.→\u00A0Identifier les besoins, les attentes et les contraintes des acteurs externes.→\u00A0Délimiter le système (composants internes, acteurs externes).→\u00A0Planifier le développement.",
+      "method": "On utilise pour les acteurs externes des boîtes ou des ellipses. Le système est au centre du diagramme, sous forme de boîte ou ellipse aussi. Les flux de données sont représentés par des flèches dirigées vers ou depuis le système, les flux de contrôle par des flèches ou des lignes pointillées. On peut ajouter des événements et des annotations.",
+      "source": "https://ineumann.developpez.com/tutoriels/merise/initiation-merise/"
     },
     {
       "id": 16,
-      "name": "Diagramme des données",
-      "image": "assets/diagram.png",
-      "sourceImage": "Source image",
-      "description": "Représente les données manipulées par le système et les relations entre elles.",
-      "uses": "",
-      "method": "",
-      "source": "Source"
+      "name": "Diagramme de flux de contrôle",
+      "image": "assets/diagrams/merise/control-flow.jpeg",
+      "sourceImage": "https://en.wikipedia.org/wiki/Control-flow_diagram",
+      "description": "MERISE - Est utilisé pour représenter la logique de contrôle à l'intérieur du système. Il montre comment les processus sont déclenchés et comment les décisions sont prises.",
+      "uses": "→\u00A0Pour représenter la manière dont les opérations et les actions sont organisées à l'intérieur d'un processus ou d'une fonction.→\u00A0Décomposer un processus ou une fonction en étapes ou en actions individuelles.→\u00A0Modéliser les décisions prises à l'intérieur d'un processus",
+      "method": "Chaque étape est représentée par un symbole ou un rectangle, et les flèches indiquent la séquence dans laquelle ces étapes sont exécutées. Les décisions sont représentées par des losanges, avec des flèches de sortie conditionnelles.",
+      "source": "https://ineumann.developpez.com/tutoriels/merise/initiation-merise/"
     },
     {
       "id": 17,
-      "name": "Diagramme des entités et associations",
-      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/ERD/discovery/erd-feature.svg",
-      "sourceImage": "https://www.lucidchart.com/pages/fr/diagramme-entite-association",
-      "description": "Identifie les entités du système, leurs attributs et les associations entre elles.",
-      "uses": "",
-      "method": "",
-      "source": "Source"
-    },
-    {
-      "id": 18,
-      "name": "Diagramme de flux d'entités",
-      "image": "assets/diagram.png",
-      "sourceImage": "Source image",
-      "description": "Montre les flux d'entités entre les traitements du système.",
-      "uses": "",
-      "method": "",
-      "source": "Source"
-    },
-    {
-      "id": 19,
-      "name": "Diagramme des flux de données",
-      "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/data-flow-diagram/discovery/featured.svg",
-      "sourceImage": "https://www.lucidchart.com/pages/fr/creer-un-diagramme-de-flux-de-donnees",
-      "description": "Montre les flux de données entre les processus du système.",
-      "uses": "",
-      "method": "",
-      "source": "Source"
+      "name": "Diagramme de flux physique",
+      "image": "assets/diagrams/merise/physical-flow.jpg",
+      "sourceImage": "https://www.lucidchart.com/pages/data-flow-diagram/logical-vs-physical-data-flow-diagram",
+      "description": "MERISE - Décrit les détails techniques de la manière dont les données sont stockées et manipulées dans le système.",
+      "uses": "→\u00A0Pour montrer comment les fichiers sont créés, lus, mis à jour et supprimés.→\u00A0Identifier les supports de stockage de données.→\u00A0Représenter l'architecture matérielle du système.→\u00A0Optimiser les performances en identifiant les goulots d'étranglement.",
+      "method": "Il est recommandé de commencer par un diagramme de flux données logique. Pour chaque processus identifié, on en crée des correspondants physiques, soit les composants réels du système qui effectuent les opérations techniques.",
+      "source": "https://ineumann.developpez.com/tutoriels/merise/initiation-merise/"
     }
   ],
   "umlDiagrams": [
